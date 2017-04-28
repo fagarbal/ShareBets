@@ -11,6 +11,6 @@ export const routes:Routes=[
       { path: 'inicio', component: ContentHomeComponent }
     ]
   },
-  { path: '', redirectTo:'inicio',pathMatch: 'full' }
+  { path: '', redirectTo:'app/inicio',pathMatch: 'full' }
 ]
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);
